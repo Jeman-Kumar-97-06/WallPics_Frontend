@@ -1,11 +1,12 @@
 const WallDetail = ({w}) => {
 
-    let fullUrl = `http://localhost:2000/${w.wall}`
+    let fullUrl = `https://my-projects-lxja.onrender.com/${w.wall}`
 
     return (
         <div class="max-w-sm mr-12 mt-6 h-auto min-h-3 p-6 bg-gray-100 rounded-lg shadow-lg">
         <div class="relative">
           <img 
+            className="wallpaper-img"
             src={fullUrl} 
             alt="Wallpaper" 
             class="w-full h-auto rounded-lg"

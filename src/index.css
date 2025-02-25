@@ -1,1 +1,7 @@
 @import 'tailwindcss';
+.wallpaper-img {
+    width: 100%; /* Make sure the image takes full width */
+    height: 300px; /* Set a fixed height */
+    object-fit:cover; /* Crop images to fit while maintaining aspect ratio */
+    border-radius: 8px; /* Optional: rounded corners */
+  }
